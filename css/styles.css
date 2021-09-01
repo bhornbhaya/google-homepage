@@ -1,0 +1,129 @@
+body {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #222;
+}
+
+.google-account-photo {
+   border-radius: 50%;
+   width: 35px;
+   height: 35px;
+   margin-right: 15px;
+}
+
+.google-account-photo :hover{
+    
+}
+.dots{
+    width: 20px;
+    height: 20px;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 13px;
+    align-items: center;
+    font-size: 13.3333px;
+}
+
+    .nav-item-text :link {
+        text-decoration: none;
+        color: #222;
+    }
+
+    .nav-item-text :visited {
+        color: #222;
+    }
+
+    .nav-item-text :hover{
+        text-decoration: underline;
+    }
+
+.google-logo{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 110px;
+}
+
+/* 
+Search Section 
+*/
+
+.search-box {
+    margin: 30px auto;
+    width: 575px;
+    border-radius: 30px;
+    border: 1px solid #dcdcdc;
+}
+.search-box:hover {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+.search-box :focus-within {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline: none;
+}
+
+.fa-search{
+    padding-left: 10px;
+}
+.search-bar{
+    height:45px;
+    width:500px;
+    font-size:16px;
+    outline: none;
+    border: none;
+    margin-left: 5px;
+}
+
+input[type=text]:focus{
+    box-shadow: none;
+}
+
+.voice {
+    height: 20px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+.buttons{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin: 10px auto 30px auto;
+}
+
+.button {
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    color:#707070;
+}
+
+.button:hover {
+    border: 0.5px solid #c8c8c8;
+}
+
+.other-lang{
+    font-size:13.3333px;
+    text-align: center;
+}
+
+    .other-lang :link {
+        text-decoration: none;
+        color: rgb(37, 37, 165);
+    }
+
+    .other-lang :visited {
+        color: rgb(37, 37, 165);
+    }
+    
+    .other-lang :hover{
+        text-decoration: underline;
+    }

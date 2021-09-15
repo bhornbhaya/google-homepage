@@ -10,6 +10,7 @@
 
     <!--favicon-->
     <link rel="icon" href="img/favicon.ico">
+
     <!--fontawesome-->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
@@ -18,22 +19,31 @@
 </head>
 
 <body>
-    <div class="nav-bar">
+    <header class="header">
+        <div class="user-nav">
 
-        <div class="nav-item-text"><a href="#">Gmail</a></div>
-        <div class="nav-item-text"><a href="#">Images</a></div>
-        <div class="nav-items"><a href="#"><img class="dots" src="img/dots-icon-20.jpg" alt="nine-dots-icon"
-                    title="Google Apps"></a></div>
-        <div class="nav-items"><a href="#"><img class="google-account-photo"
-                    src="img/charles-deluvio-Mv9hjnEUHR4-unsplash.jpg" alt="account-photo" title="Google Account"></a>
+            <span class="user-nav__text"><a href="#" class="user-nav__link">Gmail</a></span>
+
+            <span class="user-nav__text"><a href="#" class="user-nav__link">Images</a></span>
+
+            <div class="user-nav__icon user-nav__icon-grey"><a href="#" data-tool-tip="Google Apps"><img
+                        class="user-nav__dots" src="img/dots-icon-20.jpg" alt="nine-dots-icon"></a>
+            </div>
+
+            <div class="user-nav__icon"><a href="#" data-tool-tip-icon="Google Account"><img
+                        class="user-nav__user-photo" src="img/charles-deluvio-Mv9hjnEUHR4-unsplash.jpg"
+                        alt="account-photo"></a>
+            </div>
+
         </div>
 
-    </div>
 
+    </header>
     <div class="logo">
         <img class="google-logo"
             src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
     </div>
+
     <!--Search Section-->
     <div class="search-box">
         <i class="fal fa-search"></i>
@@ -51,7 +61,7 @@
 
     <!--Other languages-->
     <div class="other-lang">
-        Google offered in: <a href="#">ภาษาไทย</a> <a href="#">Gaelige</a>
+        Google offered in: <a href="#">Gaelige</a>
     </div>
 
 </body>
